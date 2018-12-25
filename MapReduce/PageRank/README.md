@@ -7,6 +7,7 @@ An implementation of multi-source personalized pagerank. The main difference bet
 - All lost mass is put back into the source node as opposed to being equally distributed
 
 *For more information on PageRank and the diferrence between the variants check out the following links:*
+
 *- https://computer.howstuffworks.com/google-algorithm1.htm*
 
 *- https://www.r-bloggers.com/from-random-walks-to-personalized-pagerank/*
