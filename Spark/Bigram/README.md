@@ -4,6 +4,6 @@
 
 Both programs compute the relative frequencies of all bigrams in a text collection.
 
-The *ComputeBigramRelativeFrequencyPairs.scala.scala* variant writes the co-occuring word pair *(A,B)* as the key along with the PMI and word count *(PMI, Count)* as the value in the final output.
+The *ComputeBigramRelativeFrequencyPairs.scala.scala* variant writes the co-occuring word pair *(A,B)* as the key along with the frequency as the value in the final output.
 
-The *ComputeBigramRelativeFrequencyStripes.scala.scala* variant writes a word *(A)* as the key and a map containing co-occuring words along with their PMI and word count *(B, (PMI, Count))* as the value in the final output.
+The *ComputeBigramRelativeFrequencyStripes.scala.scala* variant writes a word *(A)* as the key and a map containing co-occuring words along with their frequencies *(B, freq)* as the value in the final output.
