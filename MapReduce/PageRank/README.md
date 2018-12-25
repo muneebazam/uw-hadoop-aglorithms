@@ -1,6 +1,6 @@
 # PageRank
 
-An implementation of multi-source personalized pagerank. The main difference between pagerank and its personalized counterpart are:
+An implementation of multi-source personalized pagerank. The main differences in the personalized variant are:
 - All computations are made with respect to a source node *(personalization aspect)*
 - Initially, the source node holds all the mass as opposed to an equal mass distribution 
 - Random jumps are always made back to the source node as opposed to an equal probability over nodes
