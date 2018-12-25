@@ -2,4 +2,8 @@
 
 *A bigram is a sequence of two adjacent words from a string of words (tokens). A bigram is an n-gram for n=2. For more information on bigrams see https://en.wikipedia.org/wiki/Bigram#Bigram_frequency_in_the_English_language*
 
-This program computes the relative frequencies of all bigrams in a text collection.
+Both programs compute the relative frequencies of all bigrams in a text collection.
+
+The *PairsPMI.scala* variant writes the co-occuring word pair *(A,B)* as the key along with the PMI and word count *(PMI, Count)* as the value in the final output.
+
+The *StripesPMI.scala* variant writes a word *(A)* as the key and a map containing co-occuring words along with their PMI and word count *(B, (PMI, Count))* as the value in the final output.
