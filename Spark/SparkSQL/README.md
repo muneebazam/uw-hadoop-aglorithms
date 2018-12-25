@@ -4,4 +4,4 @@ The 7 scala programs here all implement diferrent SQL queries in a data warehous
 
 *Q1.scala* -> How many items were shipped on a particular date? This corresponds to the following SQL query:
 
-`select count(*) from lineitem where l_shipdate = 'YYYY-MM-DD';`
+  `select count(*) from lineitem where l_shipdate = 'YYYY-MM-DD';`
