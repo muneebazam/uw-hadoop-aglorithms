@@ -9,9 +9,13 @@ The 7 scala programs here all implement diferrent SQL queries in a data warehous
 *Q2.scala* -> Which clerks were responsible for processing items that were shipped on a particular date? List the first 20 by order key. This corresponds to the following SQL query:
 
 `select o_clerk, o_orderkey from lineitem, orders
+
 where
+
   l_orderkey = o_orderkey and
+  
   l_shipdate = 'YYYY-MM-DD'
+  
 order by o_orderkey asc limit 20;`
 
 *Q3.scala* -> What are the names of parts and suppliers of items shipped on a particular date? List the first 20 by order key. This corresponds to the following SQL query:
